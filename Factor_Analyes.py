@@ -48,7 +48,7 @@ Class PLA_(object):
         for i in ndarray:
             tmpsum = tmpsum + i
             if tmpsum >= sumArray * self.percentage:
-                n = np.where(i)
+                n = np.where(sortArray == i)
                 return n 
             
 
